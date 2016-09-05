@@ -1,0 +1,111 @@
+section.right{
+  width: 500px;
+  height: 600px;
+  float: right;
+  display: inline-flex;
+  flex-wrap: wrap;
+  background: black;
+  overflow: hidden;
+
+    div{
+        width: 250px;
+        height: 200px;
+        background-size: cover;
+
+
+        &:hover{
+        transition: all 500ms ease-in;
+
+          p{
+            display: inline-block;
+            transition: all 1000ms linear;
+          }
+        }
+
+        &.firstBlock{
+
+          background-image: url('../img/big/marketing-sm.jpg');
+
+          &:hover{
+            background: #E91E63;
+            p{
+              color: black;
+            }
+          }
+        }
+
+        &.secondBlock{
+          background-image: url('../img/big/corpStyle-sm.jpg');
+
+          &:hover{
+            background: yellow;
+
+            p{
+              color: black;
+            }
+          }
+        }
+
+        &.thirdBlock{
+          background-image: url('../img/big/zakupka-sm.jpg');
+
+          &:hover{
+            background: #673AB7;
+
+            p{
+              color: black;
+            }
+          }
+        }
+
+        &.fourthBlock{
+          background-image: url('../img/big/patent-sm.jpg');
+          background-size: 100%;
+
+          &:hover{
+            background: #2196F3;
+
+            p{
+              color: black;
+            }
+          }
+        }
+        &.fifthBlock{
+          background-image: url('../img/big/web-sm.jpg');
+          //background-size: 100%;
+            background-repeat: no-repeat;
+
+            &:hover{
+              background: #FF5722;
+
+              p{
+                color: black;
+              }
+            }
+        }
+        &.sixthBlock{
+          background-image: url('../img/big/portfolio-sm.jpg');
+        //  background-size: 100%;
+
+        &:hover{
+          background: #FFC107;
+
+          p{
+            color: black;
+          }
+        }
+        }
+        text-align: center;
+
+        p{
+            display: none;
+            margin: 0;
+            padding-top: 90px;
+            margin-left: 10px;
+            font-size: 16px;
+            color: white;
+
+
+        }
+    }
+}

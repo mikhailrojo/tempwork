@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+
+  body{
+    padding-top: 0px;
+  }
+
+  div.content{
+    width: 100%;
+  }
+
+  div.blackBack{
+    display: none;
+  }
+
+  section.left{
+    width: 100%;
+  }
+
+
+
+  section.right{
+    width: 100%;
+
+    a{
+      width: 50%;
+      text-decoration: none;
+
+      div{
+          width: 100%;
+          background-position: 60%;
+
+          p{
+            font-size: 27px;
+            padding-top: 50px;
+          }
+      }
+    }
+
+  }
+}

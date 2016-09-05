@@ -1,0 +1,29 @@
+html{
+  font-weight: 100;
+}
+
+body{
+
+  background-image: url("./../img/workdesk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Helvetica, Arial, sans-serif;
+  padding-top: 50px;
+}
+
+div.content{
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: square inside;
+  
+
+  li{
+    font-size: 16px;
+  }
+}
